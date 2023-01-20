@@ -47,3 +47,25 @@ button {
 .login {
   margin-right: 30px;
 }
+.main_image {
+  width: 100%;
+  max-width: 900px;
+}
+.title {
+  font-size: 45px;
+  font-style: italic;
+  max-width: 500px;
+  margin: 30px auto;
+}
+article {
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+.sub {
+  font-size: 17px;
+  margin-top: 10px;
+  color: rgb(57, 55, 55);
+  line-height: 1.5;
+  max-width: 900px;
+}
