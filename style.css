@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
+* {
+  box-sizing: border-box;
+}
 * {
   margin: 0;
   font-family: "Tinos", serif;
   box-sizing: border-box;
+}
+main {
+  margin: 80px 0 0;
+  font-size: 18px;
 }
 nav {
   display: flex;
@@ -52,10 +58,13 @@ button {
   max-width: 900px;
 }
 .title {
+  margin-top: 30px;
   font-size: 45px;
   font-style: italic;
   max-width: 500px;
   margin: 30px auto;
+  float: left;
+  margin-left: 260px;
 }
 article {
   width: 70%;
@@ -68,4 +77,28 @@ article {
   color: rgb(57, 55, 55);
   line-height: 1.5;
   max-width: 900px;
+}
+.article-top {
+  margin: 0 auto;
+  width: 600px;
+}
+.author-info,
+.content {
+  float: left;
+  margin-top: 10px;
+}
+.content {
+  font-size: 20px;
+  float: left;
+  line-height: 25px;
+  margin-left: 200px;
+  margin-top: 20px;
+  line-height: 1.5;
+  max-width: 800px;
+}
+.control {
+  float: left;
+}
+div {
+  display: block;
 }
