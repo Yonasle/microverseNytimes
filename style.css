@@ -78,20 +78,17 @@ article {
   line-height: 1.5;
   max-width: 900px;
 }
-.article-top {
-  margin: 0 auto;
-  width: 600px;
+.author-info{
+  margin-top: 20px;
+  
 }
-.author-info,
-.content {
-  float: left;
-  margin-top: 10px;
+.article-top {
+  margin-left: 70px;
+  
 }
 .content {
   font-size: 20px;
-  float: left;
-  line-height: 25px;
-  margin-left: 200px;
+  margin-left: 70px;
   margin-top: 20px;
   line-height: 1.5;
   max-width: 800px;
@@ -101,4 +98,38 @@ article {
 }
 div {
   display: block;
+}
+
+.wrapperImg {
+  width: 850px;
+}
+.content2 {
+  position: relative;
+}
+.content2 h3 {
+  margin: 20px 0;
+}
+
+.grid-container {
+  position: absolute;
+  display: grid;
+  width: 850px;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 20px;
+  row-gap: 140px;
+  top: 190px;
+}
+
+.Wrap {
+  font-size: 12px;
+  padding-left: 6px;
+}
+
+.spaceToP p, h3, iframe, img {
+  margin-top: 30px;
+}
+
+.spaceToP span {
+  font-style: italic;
+  font-size: 16px;
 }
