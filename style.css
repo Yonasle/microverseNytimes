@@ -78,13 +78,11 @@ article {
   line-height: 1.5;
   max-width: 900px;
 }
-.author-info{
+.author-info {
   margin-top: 20px;
-  
 }
 .article-top {
   margin-left: 70px;
-  
 }
 .content {
   font-size: 20px;
@@ -117,7 +115,7 @@ div {
   grid-template-columns: auto auto auto auto;
   column-gap: 20px;
   row-gap: 140px;
-  top: 190px;
+  top: 208px;
 }
 
 .Wrap {
@@ -125,7 +123,10 @@ div {
   padding-left: 6px;
 }
 
-.spaceToP p, h3, iframe, img {
+.spaceToP p,
+h3,
+iframe,
+img {
   margin-top: 30px;
 }
 
