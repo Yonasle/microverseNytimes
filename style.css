@@ -16,13 +16,14 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid gray;
+  align-items: center;
 }
 .category {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin: 10px;
+  margin: 2px;
 }
 .cat-1 {
   margin-right: 12px;
@@ -34,14 +35,20 @@ nav {
   font-size: 16px;
   font-weight: 700;
 }
-.logo {
-  margin: auto;
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index : 9999;
 }
+
 button {
   text-transform: uppercase;
   height: 28px;
   margin-right: 10px;
-  margin-top: 13px;
   background-color: #6288a5;
   border: none;
   color: white;
@@ -125,12 +132,15 @@ div {
 
 .spaceToP p,
 h3,
-iframe,
-img {
+iframe
+ {
   margin-top: 30px;
 }
 
 .spaceToP span {
   font-style: italic;
   font-size: 16px;
+}
+.logo {
+  margin-top: 10px;
 }
